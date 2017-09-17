@@ -56,17 +56,7 @@ nav ul li a {
   background-color: #5e6c74;
 }
 
-h1{
-  font-family: "Rajdhani";
-  font-size: 39px;
-  line-height: 1.3em;
-  text-transform: none;
-  letter-spacing: 5px;
-  font-weight: 700;
-  font-style: normal;
-  color: #FFF;
-  text-align: center;
-}
+
 
 /* Buttons */
 #contact-btn  {
@@ -89,6 +79,11 @@ h1{
   color: rgba(31,37,38,.75);
 }
 
+#map {
+  position: center;
+  height: 300px;
+  width: 950px;
+}
 .about {
   font-size: 30px;
   line-height: 1.6em;
@@ -100,7 +95,7 @@ h1{
 
 
 
-.shops {
+.images {
   width: 450px;
   height: 300px;
 }
@@ -108,3 +103,35 @@ h1{
 .neighbourhood {
   color: black;
 }
+
+footer h1 {
+  background-color: #5e6c74;
+  border-color: #94a3a4;
+  font-size: 16px;
+  line-height: 1.4em;
+  letter-spacing: 2px;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.donmills {
+  color: black;
+}
+
+.contact-us {
+  background: url("https://static1.squarespace.com/static/564380b2e4b042aca2ba66f8/t/56561b46e4b00f188f2d27db/1448483662679/web-skynewblue.png?format=2500w") no-repeat;
+
+}
+/* h1 need to fix it
+h1{
+  font-family: "Rajdhani";
+  font-size: 39px;
+  line-height: 1.3em;
+  text-transform: none;
+  letter-spacing: 5px;
+  font-weight: 700;
+  font-style: normal;
+  color: #FFF;
+  text-align: center;
+}
+*/
