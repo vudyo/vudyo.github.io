@@ -1,9 +1,8 @@
 
 .images {
-  width: 450px;
-  height: 300px;
+ max-width: 100%;
+ max-height: 100%;
 }
-
 
 /*------------------*/
 
@@ -55,9 +54,9 @@ footer h1 {
 /* About the Crosstown, Crosstown Special Features, THE NEIGHBOURHOOD titles */
 .aboutcrosshood {
   font-family: "Rajdhani";
-  font-size: 30px;
+  font-size: 40px;
   line-height: 1.6em;
-  letter-spacing: .4px;
+  letter-spacing: 6px;
   font-weight: 300;
   font-style: normal;
   color: rgba(31,37,38,.75);
@@ -129,9 +128,8 @@ footer h1 {
 
 /* Inquiries section */
 .inquiries {
-  text-align: center;
   font-family: "Rajdhani";
-  font-size: 24px;
+  font-size: 30px;
   line-height: 1.3em;
   text-transform: none;
   letter-spacing: 5px;
@@ -174,12 +172,15 @@ footer h1 {
 
 /* All text on the webpage,all paragraphs */
 #text {
-  font-size: 16px;
-  line-height: 1.6em;
+  font-size: 18px;
+  line-height: 1.5em;
   letter-spacing: .4px;
   font-weight: 300;
   font-style: normal;
   color: rgba(31,37,38,.75);
+  text-decoration: inherit;
+  font-family: 'Encode Sans Expanded', sans-serif;
+  margin: auto;
 
 }
 
@@ -216,16 +217,14 @@ footer h1 {
 /* Map picture */
 #map {
   position: center;
-  height: 300px;
-  width: 750px;
-  padding-left: 80px;
+  max-width: 100%;
 }
 
 /* Java script */
 #Java {
-    background-color: grey;
-    color: black;
-    text-align: center;
+  background-color: grey;
+  color: black;
+  text-align: center;
 }
 
 /* Inquiries image and section itself */
@@ -233,4 +232,10 @@ footer h1 {
   background: url("https://static1.squarespace.com/static/564380b2e4b042aca2ba66f8/t/56561b46e4b00f188f2d27db/1448483662679/web-skynewblue.png?format=2500w") no-repeat;
   box-shadow: inset 0 0 0 1000px rgba(148,163,164,.8);
   height: 450px;
+}
+
+/* All links style */
+#link a {
+  color: black;
+  text-decoration: inherit;
 }
