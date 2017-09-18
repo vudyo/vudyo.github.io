@@ -25,7 +25,7 @@
 						</div>
 		<!--Navigation Menu-->
 						<div class="col-xs-offset-4 col-xs-6">
-							<ul id="navigation">
+							<ul>
 								<li> <a href="#about">ABOUT</a></li>
 								<li> <a href="#ownership">OWNERSHIP</a></li>
 								<li> <a href="#features">FEATURES</a></li>
@@ -44,7 +44,7 @@
 						<h1>OWN THIS BUILDING</h1>
 					</div>
 					<div class="col-xs-4">
-						<button id="contact-btn">CONTACT US NOW</button>
+						<button class="contact-btn">CONTACT US NOW</button>
 					</div>
 			</div>
 	</section>
@@ -70,19 +70,13 @@
 	<div class="col-xs-12">
 		<h1>OWNERSHIP HAS ITS REWARDS</h1>
 					<p>•Build equity</p>
-					<p>&nbsp;</p>
 					<p>•Be in control</p>
-					<p>&nbsp;</p>
 					<p>•Tax benefits</p>
-					<p>&nbsp;</p>
 					<p>•Low financing rates</p>
-					<p>&nbsp;</p>
 					<p>•Price appreciation of up to 30% upon<br>
 						completion of the Crosstown subway line</p>
-					<p>&nbsp;</p>
 					<p>•Proposed development next door of 2,897<br>
 						 residential units + 98,000 sqft retail space</p>
-					<p>&nbsp;</p>
 					<p>•Location, location, location!</p>
 			<div>
 				<button class="download-btn">DOWNLOAD OUR BROCHURE</button>
@@ -123,6 +117,15 @@
 	</div>
 </section>
 
+<!--Javascript should be here-->
+<section id="Java">
+	<div class="row">
+		<div class="col-xs-12">
+			<h1 class="">Javascript should be here</h1>
+		</div>
+	</div>
+</section>
+
 <!--Fifth container-->
 <section id="neighbourhood">
 	<div class="row">
@@ -148,7 +151,7 @@
 	</div>
 </section>
 
-<!-- container-->
+<!-- Seventh container-->
 <section>
 <div class="container-fluid">
 		<div class="row">
@@ -248,23 +251,23 @@
 	<div class="row">
 		<div class="col-xs-6">
 			<h1 class="inquiries">Inquiries</h1>
-			<p>For all inquiries, please call us at 1-888-406-0608, or use the form to the right.</p>
+			<p class="contact-text">For all inquiries, please call us at 1-888-406-0608, or use the form to the right.</p>
 		</div>
 
 		<!--contact us form-->
 		<div class="col-xs-6">
-			    <form action="#">
-			      <ul>
+			    <form class= "contact-text" action="#">
+			      <ul class="input_form">
 
 			        <li>
 			          <p class="left">
 			            <label for="first_and_last_name">Name<span class="req">*</span></label>
 			            <input type="text" name="first_name" />
-									<p>First Name</p>
+									<p class="first_last">First Name</p>
 			          </p>
 			          <p class="pull-right">
 			            <input type="text" name="last_name" />
-									<p>Last Name</p>
+									<p class="first_last">Last Name</p>
 			          </p>
 			        </li>
 
@@ -282,12 +285,12 @@
 			        <li><div class="divider"></div></li>
 
 			        <li>
-			          <label for="message">Message</label>
+			          <label for="message">Message<span class="req">*</span></label>
 			          <textarea cols="46" rows="4" name="message"></textarea>
 			        </li>
 
 			        <li>
-			          <input class="btn btn-submit" type="submit" value="Submit" />
+			          <input class="submit-btn" type="submit" value="Submit" />
 			        </li>
 
 			      </ul>

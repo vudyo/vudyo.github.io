@@ -5,23 +5,8 @@
 }
 
 
-/* h1 need to fix it
-h1{
-  font-family: "Rajdhani";
-  font-size: 39px;
-  line-height: 1.3em;
-  text-transform: none;
-  letter-spacing: 5px;
-  font-weight: 700;
-  font-style: normal;
-  color: #FFF;
-  text-align: center;
-}
-*/
-
-
-
 /*------------------*/
+
 
 /* Navigation Bar */
 nav ul li {
@@ -107,6 +92,24 @@ footer h1 {
   border: none;
 }
 
+/* Submit Button */
+.submit-btn {
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  padding: 1em 1.75em;
+  background-color: #5e6c74;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  line-height: 1em;
+  margin: 10px 0;
+  color: rgba(255,255,255,.8);
+  border: none;
+  text-transform: uppercase;
+}
+
 /* Contact Us Now Button */
 .contact-btn  {
   font-size: 12px;
@@ -121,7 +124,44 @@ footer h1 {
   line-height: 1em;
   margin: 10px 0;
   border: none;
-  padding: 1em 1.75em;
+  padding: 10px;
+}
+
+/* Inquiries section */
+.inquiries {
+  text-align: center;
+  font-family: "Rajdhani";
+  font-size: 24px;
+  line-height: 1.3em;
+  text-transform: none;
+  letter-spacing: 5px;
+  font-weight: 700;
+  font-style: normal;
+  color: #FFF;
+  text-transform: uppercase;
+}
+
+/* Text below inquiries, contact us section + input form text */
+.contact-text {
+  font-size: 18px;
+  line-height: 1.6em;
+  letter-spacing: .4px;
+  font-weight: 300;
+  font-style: normal;
+  color: #fff;
+}
+
+/*input form First and Last name */
+.first_last {
+  letter-spacing: .4px;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 12px;
+}
+
+/* Contact form list style */
+.input_form {
+  list-style: none;
 }
 
 /* Home Logo picture */
@@ -140,6 +180,7 @@ footer h1 {
   font-weight: 300;
   font-style: normal;
   color: rgba(31,37,38,.75);
+
 }
 
 /* Own this Building section */
@@ -149,7 +190,7 @@ footer h1 {
   font-family: "Rajdhani";
   font-size: 24px;
   line-height: 1.3em;
-  text-transform: none;
+  text-transform: uppercase;
   letter-spacing: 5px;
   font-weight: 700;
   font-style: normal;
@@ -162,13 +203,14 @@ footer h1 {
   height: 1000px;
   text-align: center;
   font-family: "Rajdhani";
-  font-size: 26px;
+  font-size: 34px;
   line-height: 1.3em;
   text-transform: none;
   letter-spacing: 5px;
   font-weight: 700;
   font-style: normal;
   color: #FFF;
+  padding-top: 100px;
 }
 
 /* Map picture */
@@ -179,9 +221,16 @@ footer h1 {
   padding-left: 80px;
 }
 
+/* Java script */
+#Java {
+    background-color: grey;
+    color: black;
+    text-align: center;
+}
+
 /* Inquiries image and section itself */
 #book {
   background: url("https://static1.squarespace.com/static/564380b2e4b042aca2ba66f8/t/56561b46e4b00f188f2d27db/1448483662679/web-skynewblue.png?format=2500w") no-repeat;
   box-shadow: inset 0 0 0 1000px rgba(148,163,164,.8);
-  height: 400px;
+  height: 450px;
 }
