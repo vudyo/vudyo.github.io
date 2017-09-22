@@ -61,6 +61,7 @@ footer h1 {
   font-style: normal;
   color: rgba(31,37,38,.75);
   text-align: center;
+  font-weight: bold;
 }
 
 /* Mini titles like shops, restaurants etc. */
@@ -92,7 +93,7 @@ footer h1 {
 }
 
 /* Submit Button */
-.submit-btn {
+#submit-btn {
   font-size: 12px;
   letter-spacing: 2px;
   font-weight: 400;
@@ -119,7 +120,6 @@ footer h1 {
   background-color: #94a3a4;
   border-color: #94a3a4;
   -webkit-font-smoothing: antialiased;
-  display: inline-block;
   line-height: 1em;
   margin: 10px 0;
   border: none;
@@ -147,6 +147,7 @@ footer h1 {
   font-weight: 300;
   font-style: normal;
   color: #fff;
+
 }
 
 /*input form First and Last name */
@@ -155,11 +156,35 @@ footer h1 {
   font-weight: 300;
   font-style: normal;
   font-size: 12px;
+
 }
 
 /* Contact form list style */
 .input_form {
   list-style: none;
+}
+
+#contact-form {
+  display: block;
+  height: 30px;
+  width: 275px;
+  border: none;
+
+}
+#text-style {
+  font-size: 18px;
+  line-height: 1.6em;
+  letter-spacing: .4px;
+  font-weight: 300;
+  font-style: normal;
+  color: #fff;
+}
+.autoplay {
+  position: relative;
+  text-align: justify;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
 }
 
 /* Home Logo picture */
@@ -180,8 +205,8 @@ footer h1 {
   color: rgba(31,37,38,.75);
   text-decoration: inherit;
   font-family: 'Encode Sans Expanded', sans-serif;
-  margin: auto;
-
+  margin: auto  ;
+  -webkit-font-smoothing: antialiased;
 }
 
 /* Own this Building section */
@@ -196,6 +221,7 @@ footer h1 {
   font-weight: 700;
   font-style: normal;
   color: #FFF;
+  max-width: 100%;
 }
 
 /* Ownership has its rewards section */
@@ -212,6 +238,7 @@ footer h1 {
   font-style: normal;
   color: #FFF;
   padding-top: 100px;
+  -webkit-font-smoothing: antialiased;
 }
 
 /* Map picture */
@@ -222,11 +249,8 @@ footer h1 {
 
 /* Java script */
 #Java {
-  background-color: grey;
-  color: black;
-  text-align: center;
-}
 
+}
 /* Inquiries image and section itself */
 #book {
   background: url("https://static1.squarespace.com/static/564380b2e4b042aca2ba66f8/t/56561b46e4b00f188f2d27db/1448483662679/web-skynewblue.png?format=2500w") no-repeat;
